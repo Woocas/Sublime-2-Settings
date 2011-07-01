@@ -1,0 +1,16 @@
+[
+	{ "keys": ["ctrl+w"], "command": "expand_selection", "args": {"to": "word"} },
+   { "keys": ["super+shift+l"], "command": "expand_selection", "args": {"to": "line"} },
+   { "keys": ["shift+tab"], "command": "auto_complete" },
+
+   { "keys": ["shift+tab"], "command": "replace_completion_with_auto_complete", "context":
+      [
+         { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+         { "key": "setting.tab_completion", "operator": "equal", "operand": true }
+      ]
+   },
+   { "keys": ["ctrl+shift+super+f"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+   { "keys": ["super+m"], "command": "expand_selection", "args": {"to": "brackets"} },
+   { "keys": ["super+ctrl+shift+p"], "command": "copy_path" },
+   { "keys": ["ctrl+alt+super+t"], "command": "send_to_transmit" }
+]

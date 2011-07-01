@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+   <title>$1</title>
+</head>
+<body>
+$2
+</body>
+</html>
+]]></content>
+    <tabTrigger>skel</tabTrigger>
+    <scope>text</scope>
+    <description>HTML Skeleton</description>
+</snippet>

@@ -1,0 +1,10 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (light).tmTheme",
+	"font_face": "Menlo",
+	"font_size": 12,
+	"tab_completion": false,
+	"tab_size": 3,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": false,
+	"word_wrap": false
+}

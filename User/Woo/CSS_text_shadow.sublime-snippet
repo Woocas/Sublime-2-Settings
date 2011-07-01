@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+/* --- */
+-wekbit-text-shadow: $1px $2px $3px #$4;
+-moz-text-shadow: $1px $2px $3px #$4;
+text-shadow: $1px $2px $3px #$4;
+/* --- */
+]]></content>
+    <tabTrigger>textshadow</tabTrigger>
+    <scope>source.css</scope>
+    <description>CSS Box Shadow</description>
+</snippet>
